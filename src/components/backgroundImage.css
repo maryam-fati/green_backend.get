@@ -1,0 +1,21 @@
+.background{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  transition: filter 0.5s;
+  max-width:100%;
+}
+
+.background:hover {
+  filter: brightness(0.4); 
+}
+
+.text{
+  text-align: center;
+  border-radius: 30px;
+}
+
+.text:hover{
+  filter: brightness(0.8);
+}

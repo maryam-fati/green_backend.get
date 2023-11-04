@@ -1,0 +1,35 @@
+/* Clients.css */
+
+/* Default styles for larger screens */
+h1 {
+    margin-top: 30px;
+     text-align: center; 
+     color: green;
+     font-size: 65px; 
+     font-family: -moz-initial;
+  }
+
+.swiper {
+     height: 170px;
+     width: 380px;
+     border-radius: 20px;
+}
+
+.slide {
+    border-radius: 20px;
+}
+  
+  /* Media query for screens with a maximum width of 768px (adjust as needed) */
+  @media (max-width: 768px) {
+
+.slide {
+        height: 120px;
+        width: 200px;
+    }
+    .swiper {
+        height: 120px;
+        width: 200px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+  }
